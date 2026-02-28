@@ -1,5 +1,129 @@
 <html>
   <body>
+    <main>
+  <section id="primary-location">
+    <header>
+      <h1>Monday</h1>
+      <time datetime="2022-06-20">20 Jun 2022</time>
+      <p>
+        <span aria-hidden="true">📍</span> 
+        Biarritz, FR
+      </p>
+    </header>
+
+    <div class="current-weather">
+      <img src="/icons/sun.svg" alt="Sunny">
+      <h2>29 °C</h2>
+      <p>Sunny</p>
+    </div>
+  </section>
+
+  <section id="weather-details">
     
+    <dl class="conditions-list">
+      <dt>PRECIPITATION</dt>
+      <dd>0%</dd>
+      
+      <dt>HUMIDITY</dt>
+      <dd>42%</dd>
+      
+      <dt>WIND</dt>
+      <dd>3 km/h</dd>
+    </dl>
+
+    <ul class="daily-forecast">
+      <li>
+        <time datetime="2022-06-21">Tue</time>
+        <img src="/icons/sun.svg" alt="Sunny">
+        <span>30 °C</span>
+      </li>
+      <li>
+        <time datetime="2022-06-22">Wed</time>
+        <img src="/icons/cloudy.svg" alt="Cloudy">
+        <span>22 °C</span>
+      </li>
+      <li>
+        <time datetime="2022-06-23">Thu</time>
+        <img src="/icons/rain.svg" alt="Rain">
+        <span>06 °C</span>
+      </li>
+      <li>
+        <time datetime="2022-06-24">Fry</time>
+        <img src="/icons/sun.svg" alt="Sunny">
+        <span>26 °C</span>
+      </li>
+    </ul>
+
+    <button type="button" class="location-toggle">
+      <span aria-hidden="true">📍</span>
+      New York City
+    </button>
+
+    <article class="hourly-forecast-widget">
+      <p>Clear conditions expected around 9PM. Wind gusts are up to 3 mph.</p>
+      
+      <ol class="hourly-timeline">
+        <li>
+          <span>Now</span>
+          <img src="/icons/cloud.svg" alt="Cloudy">
+          <span>40°</span>
+        </li>
+        <li>
+          <time datetime="16:00">4PM</time>
+          <img src="/icons/cloud.svg" alt="Cloudy">
+          <span>39°</span>
+        </li>
+        <li>
+          <time datetime="17:00">5PM</time>
+          <img src="/icons/cloud.svg" alt="Cloudy">
+          <span>38°</span>
+        </li>
+        <li>
+          <time datetime="17:43">5:43PM</time>
+          <img src="/icons/sunset.svg" alt="Sunset">
+          <span>Sunset</span>
+        </li>
+        <li>
+          <time datetime="18:00">6PM</time>
+          <img src="/icons/cloud.svg" alt="Cloudy">
+          <span>36°</span>
+        </li>
+      </ol>
+    </article>
+
+    <article class="wind-widget">
+      <header>
+        <span aria-hidden="true">💨</span>
+        <h3>WIND</h3>
+      </header>
+      
+      <dl class="wind-data">
+        <dt>Wind</dt>
+        <dd>3 mph</dd>
+        
+        <dt>Gusts</dt>
+        <dd>3 mph</dd>
+        
+        <dt>Direction</dt>
+        <dd>163° SSE</dd>
+      </dl>
+
+      <figure class="compass-visual">
+        <figcaption class="sr-only">Compass indicating wind at 3 mph from the South South East.</figcaption>
+        <div class="compass-points" aria-hidden="true">
+          <span>N</span>
+          <span>E</span>
+          <span>S</span>
+          <span>W</span>
+        </div>
+        <div class="compass-indicator" aria-hidden="true">
+          <span class="arrow">↑</span>
+          <span class="speed">3 mph</span>
+        </div>
+      </figure>
+    </article>
+
+  </section>
+</main>
   </body>
-</html>
+</html> 
