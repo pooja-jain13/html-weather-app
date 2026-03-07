@@ -1,0 +1,31 @@
+:root{
+--color-navy-blue-100: #222831;
+--color-light-blue-100: #A1E8EE;
+--color-dark-blue-100: #515FD3;
+--color-white-100: #FFFFFF;
+--color-black-100: #000000;
+--color-medium-blue-100: #75A0D4;
+
+/* heading sizes (primitive) */
+--font-size-18: 18px;
+--font-size-20: 20px;
+--font-size-28: 28px;
+--font-size-50: 50px;
+--font-family-montserrat: 'Montserrat', sans-serif;
+
+/* heading sizes (semantic) */
+--heading-big: var(--font-size-50);
+--heading-medium: var(--font-size-28);
+--heading-small: var(--font-size-20);
+--heading-extra-small: var(--font-size-18);
+--font-headings-primary: var(--font-family-montserrat);
+
+/* corner radius (primitive )*/
+--corner-rounded-10: 10px;
+--corner-rounded-24: 24px;
+
+/* corner radius (semantic) */
+--corner-round-panels: var(--corner-rounded-24);
+--corner-round-cards: var(--corner-rounded-10);
+--corner-round-buttons: var(--corner-rounded-10);
+}
