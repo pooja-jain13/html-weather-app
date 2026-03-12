@@ -29,3 +29,29 @@
 --corner-round-cards: var(--corner-rounded-10);
 --corner-round-buttons: var(--corner-rounded-10);
 }
+
+
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+body{
+font-family:var(--font-family-montserrat);
+background:#e5e5e5;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+main{
+display:grid;
+grid-template-columns:420px 420px;
+border-radius:var(--corner-round-panels);
+overflow:hidden;
+box-shadow:0 30px 60px rgba(0,0,0,0.2);
+}
+
