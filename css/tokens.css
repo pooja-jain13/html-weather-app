@@ -32,26 +32,96 @@
 
 
 
-*{
-box-sizing:border-box;
-margin:0;
-padding:0;
-}
 
-body{
-font-family:var(--font-family-montserrat);
-background:#e5e5e5;
+
+/* ============================= */
+/* LEFT PANEL (Primary Location) */
+/* ============================= */
+
+#primary-location{
+
+/* Background is a combination of gradient + image overlay */
+background:
+linear-gradient(
+180deg,
+rgba(161,232,238,0.8),
+rgba(81,95,211,0.8)
+),
+url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+
+/* Ensure the background image fills the area nicely */
+background-size:cover;
+background-position:center;
+
+color:white;
+padding:40px;
+
+/* Vertical layout */
 display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
+flex-direction:column;
+
+/* Push current weather toward bottom */
+justify-content:space-between;
 }
 
-main{
-display:grid;
-grid-template-columns:420px 420px;
-border-radius:var(--corner-round-panels);
-overflow:hidden;
-box-shadow:0 30px 60px rgba(0,0,0,0.2);
+
+
+/* Header title (Monday) */
+#primary-location header h1{
+font-size:var(--heading-medium);
+font-weight:600;
+margin-bottom:6px;
+}
+
+
+/* Date */
+#primary-location time{
+font-size:14px;
+opacity:.9; /* slightly transparent for hierarchy */
+display:block;
+margin-bottom:10px;
+}
+
+
+/* Location text */
+#primary-location header p{
+font-size:14px;
+opacity:.9;
+
+display:flex;
+align-items:center;
+gap:6px; /* space between pin icon and text */
+}
+
+
+
+/* Current weather section (icon + temperature) */
+.current-weather{
+display:flex;
+flex-direction:column;
+gap:10px;
+
+/* pushes it down visually like the design */
+margin-top:60px;
+}
+
+
+/* Weather icon */
+.current-weather img{
+width:70px;
+}
+
+
+/* Large temperature number */
+.current-weather h2{
+font-size:var(--heading-big);
+font-weight:600;
+}
+
+
+/* Weather condition text (Sunny) */
+.current-weather p{
+font-size:20px;
+opacity:.9;
 }
 
