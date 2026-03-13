@@ -104,10 +104,12 @@ letter-spacing:1px;
 .conditions-list dt{
 opacity:.6;
 color:var(--color-white-100);
+padding-top: 10px;
 }
 
 .conditions-list dd{
 font-weight:600;
+color:var(--color-white-100);
 }
 
 /* DAILY FORECAST */
