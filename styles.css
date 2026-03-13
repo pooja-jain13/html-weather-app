@@ -103,6 +103,7 @@ letter-spacing:1px;
 
 .conditions-list dt{
 opacity:.6;
+color:var(--color-white-100);
 }
 
 .conditions-list dd{
