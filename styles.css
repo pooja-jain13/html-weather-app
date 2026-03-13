@@ -163,3 +163,41 @@ display:flex;
 align-items:center;
 gap:8px;
 }
+
+
+/* HOURLY FORECAST */
+
+.hourly-forecast-widget{
+background:linear-gradient(
+180deg,
+rgba(117,160,212,0.7),
+rgba(117,160,212,0.4)
+);
+border-radius:var(--corner-round-cards);
+padding:18px;
+font-size:13px;
+}
+
+.hourly-forecast-widget p{
+margin-bottom:14px;
+opacity:.9;
+}
+
+.hourly-timeline{
+display:flex;
+justify-content:space-between;
+list-style:none;
+align-items:center;
+}
+
+.hourly-timeline li{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:6px;
+font-size:12px;
+}
+
+.hourly-timeline img{
+width:22px;
+}
