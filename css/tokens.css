@@ -31,3 +31,26 @@
 --corner-round-cards: var(--corner-rounded-10);
 --corner-round-buttons: var(--corner-rounded-10);
 }
+
+
+
+@font-face { 
+    font-family: 'Montserrat'; 
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype'); 
+    font-weight: 400; 
+} 
+@font-face { 
+    font-family: 'Montserrat';
+     src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600; 
+}
+@font-face { 
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700; 
+}
+@font-face { 
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: 800; 
+}
