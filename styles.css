@@ -24,10 +24,7 @@ overflow:hidden;
 #primary-location{
 background:
 linear-gradient(
-180deg,
-rgba(161,232,238,0.8),
-rgba(81,95,211,0.8)
-),
+180deg,var(--color-light-blue-100),var(--color-dark-blue-100)),
 url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
 background-size:cover;
 background-position:center;
@@ -80,5 +77,20 @@ font-weight:600;
 .current-weather p{
 font-size:var(--font-size-20);
 opacity:.9;
+}
+
+/* RIGHT PANEL */
+
+#weather-details{
+background:linear-gradient(
+180deg,
+#1f252c,
+#222831
+);
+color:var(--color-white-100)
+padding:35px;
+display:flex;
+flex-direction:column;
+gap:28px;
 }
 
