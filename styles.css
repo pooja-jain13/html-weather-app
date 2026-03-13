@@ -132,10 +132,8 @@ width:70px;
 display:flex;
 flex-direction:column;
 align-items:center;
-gap:6px;
+gap:2px;
 transition:0.25s;
-padding-left: 30px;
-padding-right:30px;
 }
 
 .daily-forecast li:first-child{
