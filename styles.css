@@ -238,7 +238,7 @@ display:grid;
 grid-template-columns:auto auto;
 row-gap:8px;
 column-gap:14px;
-font-size:var(--font-size-18);
+font-size: 16px;;
 }
 
 .wind-data dt{
