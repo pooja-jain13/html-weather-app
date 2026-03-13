@@ -141,6 +141,22 @@ background:var(--color-white-100);
 color:var(--color-black-100);
 }
 
+.daily-forecast li:second-child{
+background:var(--color-white-100);
+color:var(--color-black-100);
+}
+
+.daily-forecast li:third-child{
+background:var(--color-white-100);
+color:var(--color-black-100);
+}
+
+.daily-forecast li:fourth-child{
+background:var(--color-white-100);
+color:var(--color-black-100);
+}
+
+
 .daily-forecast img{
 width:26px;
 }
