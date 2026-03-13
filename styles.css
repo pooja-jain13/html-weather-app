@@ -170,12 +170,13 @@ gap:8px;
 .hourly-forecast-widget{
 background:linear-gradient(
 180deg,
-rgba(117,160,212,0.7),
-rgba(117,160,212,0.4)
+var(--color-light-blue-100),
+var(--color-dark-blue-100)
 );
 border-radius:var(--corner-round-cards);
 padding:18px;
-font-size:13px;
+font-size:var(--font-size-20);
+width:500px
 }
 
 .hourly-forecast-widget p{
