@@ -106,6 +106,7 @@ padding-top: 20px;
 opacity:.6;
 color:var(--color-white-100);
 padding-left: 30px;
+font-size:var(--font-size-28);
 }
 
 .conditions-list dd{
@@ -141,21 +142,6 @@ background:var(--color-white-100);
 color:var(--color-black-100);
 }
 
-.daily-forecast li:second-child{
-background:var(--color-white-100);
-color:var(--color-black-100);
-}
-
-.daily-forecast li:third-child{
-background:var(--color-white-100);
-color:var(--color-black-100);
-}
-
-.daily-forecast li:fourth-child{
-background:var(--color-white-100);
-color:var(--color-black-100);
-}
-
 
 .daily-forecast img{
 width:26px;
@@ -164,6 +150,7 @@ width:26px;
 .daily-forecast span{
 font-size:14px;
 font-weight:600;
+color:var(--color-black-100);
 }
 
 * LOCATION BUTTON */
