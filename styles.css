@@ -165,7 +165,6 @@ cursor:pointer;
 display:flex;
 align-items:center;
 gap:8px;
-align-self:flex-start;
 }
 
 
@@ -205,4 +204,44 @@ font-size:12px;
 
 .hourly-timeline img{
 width:22px;
+}
+
+
+
+
+/* WIND WIDGET */
+
+.wind-widget{
+background:linear-gradient(
+180deg,
+rgba(117,160,212,0.7),
+rgba(117,160,212,0.4)
+);
+border-radius:var(--corner-round-cards);
+padding:20px;
+display:grid;
+grid-template-columns:1fr 1fr;
+align-items:center;
+gap:20px;
+}
+
+.wind-widget header{
+grid-column:1 / -1;
+display:flex;
+align-items:center;
+gap:8px;
+font-weight:600;
+margin-bottom:10px;
+}
+
+.wind-data{
+display:grid;
+grid-template-columns:auto auto;
+row-gap:8px;
+column-gap:14px;
+font-size:13px;
+}
+
+.wind-data dt{
+opacity:.7;
 }
