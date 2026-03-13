@@ -99,12 +99,12 @@ grid-template-columns:1fr auto;
 row-gap:12px;
 font-size:14px;
 letter-spacing:1px;
+padding-top: 20px;
 }
 
 .conditions-list dt{
 opacity:.6;
 color:var(--color-white-100);
-padding-top: 10px;
 }
 
 .conditions-list dd{
@@ -165,6 +165,7 @@ cursor:pointer;
 display:flex;
 align-items:center;
 gap:8px;
+max-width:500px;
 }
 
 
