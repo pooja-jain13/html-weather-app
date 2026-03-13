@@ -7,7 +7,8 @@
 --color-medium-blue-100: #75A0D4;
 
 /* heading sizes (primitive) */
---font-size-18: 18px;
+--font-size-14: 14px;
+--font-size-16: 16px;
 --font-size-20: 20px;
 --font-size-28: 28px;
 --font-size-50: 50px;
@@ -17,7 +18,8 @@
 --heading-big: var(--font-size-50);
 --heading-medium: var(--font-size-28);
 --heading-small: var(--font-size-20);
---heading-extra-small: var(--font-size-18);
+--heading-extra-small: var(--font-size-16);
+--heading-extra-extra-small: var(--font-size-14);
 --font-headings-primary: var(--font-family-montserrat);
 
 /* corner radius (primitive )*/
