@@ -159,10 +159,13 @@ color:var(--color-black-100);
 
 .location-toggle{
 border:none;
-background-color: var(--color-light-blue-100);
 padding:12px 18px;
 border-radius:var(--corner-round-buttons);
-color:var(--color-white-100);
+color:linear-gradient(
+90deg,
+#A1E8EE,
+#515FD3
+);
 font-size:var(--font-size-20);
 cursor:pointer;
 display:flex;
