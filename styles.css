@@ -105,11 +105,13 @@ padding-top: 20px;
 .conditions-list dt{
 opacity:.6;
 color:var(--color-white-100);
+padding-left: 30px;
 }
 
 .conditions-list dd{
 font-weight:600;
 color:var(--color-white-100);
+padding-right: 30px;
 }
 
 /* DAILY FORECAST */
@@ -255,5 +257,5 @@ border-radius:50%;
 display:flex;
 align-items:center;
 justify-content:center;
-padding-left: 30px;
+padding-left: 50px;
 }
