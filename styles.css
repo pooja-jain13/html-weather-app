@@ -105,14 +105,14 @@ padding-top: 20px;
 .conditions-list dt{
 opacity:.6;
 color:var(--color-white-100);
-padding-left: 10px;
+padding-left: 5px;
 font-size:var(--font-size-20);
 }
 
 .conditions-list dd{
 font-weight:600;
 color:var(--color-white-100);
-padding-right: 10px;
+padding-right: 5px;
 font-size:var(--font-size-20)
 }
 
@@ -161,8 +161,8 @@ color:var(--color-black-100);
 border:none;
 background:linear-gradient(
 90deg,
-var(--color-light-blue-100),
-var(--color-dark-blue-100)
+#A1E8EE,
+#515FD3
 );
 padding:12px 18px;
 border-radius:var(--corner-round-buttons);
