@@ -82,11 +82,7 @@ opacity:.9;
 /* RIGHT PANEL */
 
 #weather-details{
-background:linear-gradient(
-180deg,
-#1f252c,
-#222831
-);
+background-color:var(--color-navy-blue-100);
 color:var(--color-white-100)
 padding:35px;
 display:flex;
@@ -94,3 +90,20 @@ flex-direction:column;
 gap:28px;
 }
 
+/* CONDITIONS LIST */
+
+.conditions-list{
+display:grid;
+grid-template-columns:1fr auto;
+row-gap:12px;
+font-size:14px;
+letter-spacing:1px;
+}
+
+.conditions-list dt{
+opacity:.6;
+}
+
+.conditions-list dd{
+font-weight:600;
+}
