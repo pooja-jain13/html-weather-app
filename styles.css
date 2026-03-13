@@ -24,8 +24,8 @@ overflow:hidden;
 background:
 linear-gradient(
 180deg,
-var(--color-navy-blue-100),
-var(--color-black-100)
+var(--color-light-blue-100),
+var(---color-dark-blue-100)
 ),
 url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
 background-size:cover;
@@ -107,5 +107,41 @@ opacity:.6;
 }
 
 .conditions-list dd{
+font-weight:600;
+}
+
+/* DAILY FORECAST */
+
+.daily-forecast{
+display:flex;
+justify-content:space-between;
+list-style:none;
+gap:10px;
+}
+
+.daily-forecast li{
+background:var(--color-white-100);
+padding:14px;
+border-radius:var(--corner-round-cards);
+text-align:center;
+width:70px;
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:6px;
+transition:0.25s;
+}
+
+.daily-forecast li:first-child{
+background:var(--color-white-100);
+color:var(--color-black-100);
+}
+
+.daily-forecast img{
+width:26px;
+}
+
+.daily-forecast span{
+font-size:14px;
 font-weight:600;
 }
