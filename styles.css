@@ -20,11 +20,13 @@ overflow:hidden;
 }
 
 /* LEFT PANEL */
-
 #primary-location{
 background:
 linear-gradient(
-180deg,var(--color-light-blue-100),var(--color-dark-blue-100)),
+180deg,
+var(--color-navy-blue-100),
+var(--color-black-100)
+),
 url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
 background-size:cover;
 background-position:center;
