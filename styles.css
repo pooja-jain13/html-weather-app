@@ -252,36 +252,8 @@ position:relative;
 width:120px;
 height:120px;
 border-radius:50%;
-border:1px solid rgba(255,255,255,0.2);
 display:flex;
 align-items:center;
 justify-content:center;
-}
-
-.compass-points span{
-position:absolute;
-font-size:14px;
-opacity:.7;
-}
-
-.compass-points span:nth-child(1){top:6px;}
-.compass-points span:nth-child(2){right:6px;}
-.compass-points span:nth-child(3){bottom:6px;}
-.compass-points span:nth-child(4){left:6px;}
-
-.compass-indicator{
-display:flex;
-flex-direction:column;
-align-items:center;
-font-size:var(--font-size-20);
-}
-
-.arrow{
-font-size:20px;
-transform:rotate(163deg);
-}
-
-.speed{
-margin-top:4px;
-font-weight:600;
+padding-left: 30px;
 }
