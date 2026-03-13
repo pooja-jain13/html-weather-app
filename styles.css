@@ -84,7 +84,7 @@ opacity:.9;
 
 #weather-details{
 background-color:var(--color-navy-blue-100);
-color:var(--color-white-100)
+color:var(--color-white-100);
 padding:35px;
 display:flex;
 flex-direction:column;
@@ -175,9 +175,9 @@ gap:8px;
 .hourly-forecast-widget{
 background-color:var(--color-medium-blue-100);
 border-radius:var(--corner-round-cards);
-padding:18px;
+padding:12px;
 font-size:var(--font-size-18);
-width:500px
+width:350px
 }
 
 .hourly-forecast-widget p{
